@@ -3,7 +3,7 @@
 [![Author](http://img.shields.io/badge/author-@mhetreramesh-blue.svg?style=flat-square)](https://twitter.com/mhetreramesh)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/gliterd/laravel-backblaze-b2.svg?style=flat-square)](https://packagist.org/packages/gliterd/laravel-backblaze-b2)
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/gliterd/flysystem-backblaze/master.svg?style=flat-square)](https://travis-ci.org/gliterd/flysystem-backblaze)
+[![Build Status](https://img.shields.io/travis/gliterd/laravel-backblaze-b2/master.svg?style=flat-square)](https://travis-ci.org/gliterd/laravel-backblaze-b2)
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads](https://img.shields.io/packagist/dt/gliterd/laravel-backblaze-b2.svg?style=flat-square)](https://packagist.org/packages/gliterd/laravel-backblaze-b2)
@@ -76,15 +76,15 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/gliterd/laravel-backblaze-b2.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/gliterd/flysystem-backblaze/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/gliterd/flysystem-backblaze.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/gliterd/flysystem-backblaze.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/gliterd/laravel-backblaze-b2/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/gliterd/laravel-backblaze-b2.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/gliterd/laravel-backblaze-b2.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/gliterd/laravel-backblaze-b2.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/gliterd/laravel-backblaze-b2
-[link-travis]: https://travis-ci.org/gliterd/flysystem-backblaze
-[link-scrutinizer]: https://scrutinizer-ci.com/g/gliterd/flysystem-backblaze/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/gliterd/flysystem-backblaze
+[link-travis]: https://travis-ci.org/gliterd/laravel-backblaze-b2
+[link-scrutinizer]: https://scrutinizer-ci.com/g/gliterd/laravel-backblaze-b2/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/gliterd/laravel-backblaze-b2
 [link-downloads]: https://packagist.org/packages/gliterd/laravel-backblaze-b2
 [link-author]: https://github.com/mhetreramesh
 [link-contributors]: ../../contributors

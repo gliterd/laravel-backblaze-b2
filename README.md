@@ -10,7 +10,7 @@
 
 Visit (https://secure.backblaze.com/b2_buckets.htm) and get your account id, application key.
 
-The Backblaze adapter gives the possibility to use the Flysystem filesystem abstraction library with backblaze. It uses the [Backblaze B2 SDK](https://github.com/gliterd/backblaze-b2) to communicate with the API.
+The Laravel Backblaze B2 Storage Service Provider give provision for for laravel storage to use blackblaze as their storage system. It uses the [Backblaze B2 SDK](https://github.com/gliterd/backblaze-b2) & [Flysystem Adapter](https://github.com/gliterd/flysystem-backblaze) to communicate with the Backblaze b2 API.
 
 ## Install
 

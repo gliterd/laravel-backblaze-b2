@@ -22,7 +22,7 @@ composer require gliterd/laravel-backblaze-b2
 In your app.php config file add to the list of service providers:
 
 ``` php
-\Gliterd\BackblazeB2\BackblazeServiceProvider::class,
+\Gliterd\BackblazeB2\BackblazeB2ServiceProvider::class,
 ```
 Add the following to your filesystems.php config file in the disks section:
 

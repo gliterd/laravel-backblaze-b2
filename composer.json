@@ -42,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\\Gliterd\\BackblazeB2\\BackblazeServiceProvider"
+                "\\Gliterd\\BackblazeB2\\BackblazeB2ServiceProvider"
             ]
         }
     }

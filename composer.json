@@ -38,5 +38,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Gliterd\\BackblazeB2\\BackblazeB2ServiceProvider"
+            ]
+        }
     }
 }

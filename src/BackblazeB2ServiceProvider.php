@@ -19,7 +19,7 @@ class BackblazeB2ServiceProvider extends ServiceProvider
                 isset($config['bucketName']))) {
                 throw new BackblazeException('Please set all configuration keys. (accountId, applicationKey, bucketName)');
             }
-            $client = new Client($config['accountId'], $config['applicationKey']);
+            $client = new BackblazeClient($config['accountId'], $config['applicationKey']);
             $adapter = new BackblazeAdapter($client, $config['bucketName']);
             return new Filesystem($adapter);
         });

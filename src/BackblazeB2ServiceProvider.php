@@ -13,7 +13,7 @@ class BackblazeB2ServiceProvider extends ServiceProvider
     public function boot()
     {
         Storage::extend('b2', function ($app, $config) {
-            if(!(
+            if (!(
                 isset($config['accountId']) ||
                 isset($config['applicationKey']) ||
                 isset($config['bucketName']))) {
@@ -21,9 +21,11 @@ class BackblazeB2ServiceProvider extends ServiceProvider
             }
             $client = new BackblazeClient($config['accountId'], $config['applicationKey']);
             $adapter = new BackblazeAdapter($client, $config['bucketName']);
+
             return new Filesystem($adapter);
         });
     }
+
     public function register()
     {
     }

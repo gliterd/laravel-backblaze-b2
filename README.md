@@ -25,7 +25,6 @@ In your app.php config file add to the list of service providers:
 \Gliterd\BackblazeB2\BackblazeB2ServiceProvider::class,
 ```
 Add the following to your filesystems.php config file in the disks section:
-
 ``` php
 'b2' => [
     'driver'         => 'b2',
@@ -34,6 +33,7 @@ Add the following to your filesystems.php config file in the disks section:
     'bucketName'     => '',
 ],
 ```
+## *ApplicationKey is not supported yet, please use MasterKey only*
 
 ## Usage
 

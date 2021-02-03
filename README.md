@@ -31,9 +31,13 @@ Add the following to your filesystems.php config file in the disks section:
     'accountId'      => '',
     'applicationKey' => '',
     'bucketName'     => '',
+    'bucketId'       => '', //optional
 ],
 ```
-## *ApplicationKey is not supported yet, please use MasterKey only*
+## Using ApplicationKey instead of MasterKey
+If you specify only the bucket name, your application key must be the master key.
+However, if you specify both bucket name and bucket id, you do not need the master key and can use a single-bucket key.
+Fetch your bucket id using the [b2 command line tool](https://www.backblaze.com/b2/docs/quick_command_line.html) `b2 get-bucket <bucketName>` 
 
 ## Usage
 
